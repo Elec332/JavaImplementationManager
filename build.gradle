@@ -1,0 +1,23 @@
+plugins {
+    id "nl.elec332.gradle.ossrhplugin" version "1.0.1-Alpha"
+    id "com.dua3.gradle.jpms" version "0.9.0"
+}
+
+group 'nl.elec332.lib'
+archivesBaseName = "ImplementationManager"
+version '0.1-Alpha-TEST'
+
+sourceCompatibility = targetCompatibility = 1.11
+
+ossrh {
+    description = 'Implementation manager for Java 9+'
+    githubUrl = 'https://github.com/Elec332/JavaImplementationManager'
+
+    license {
+        name 'GNU Lesser General Public License, version 2.1'
+        url 'https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt'
+    }
+    developer {
+        name 'Elec332'
+    }
+}
