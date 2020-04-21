@@ -7,7 +7,7 @@ import java.util.Comparator;
 
 /**
  * Created by Elec332 on 19-4-2020
- *
+ * <p>
  * Abstract service selector for services that can easily be compared
  * Will always return the max value
  */

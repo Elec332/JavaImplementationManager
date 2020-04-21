@@ -2,7 +2,7 @@ package nl.elec332.util.implementationmanager.api;
 
 /**
  * Created by Elec332 on 29-3-2020
- *
+ * <p>
  * Used for extensions with different implementation types
  */
 public enum ImplementationType {

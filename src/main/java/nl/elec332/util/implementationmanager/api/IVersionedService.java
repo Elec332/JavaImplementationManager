@@ -1,10 +1,10 @@
 package nl.elec332.util.implementationmanager.api;
 
-import nl.elec332.util.implementationmanager.impl.VersionedServiceSelector;
+import nl.elec332.util.implementationmanager.impl.selector.VersionedServiceSelector;
 
 /**
  * Created by Elec332 on 19-4-2020
- *
+ * <p>
  * A versioned service which is handled by {@link VersionedServiceSelector}
  * The service with the highest version will always be used
  */

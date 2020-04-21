@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 /**
  * Created by Elec332 on 19-4-2020
- *
+ * <p>
  * Used for determining the best {@link IServiceSelector} service selector for a given type
  */
 @SuppressWarnings({"rawtypes", "unchecked"})
