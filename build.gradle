@@ -5,9 +5,20 @@ plugins {
 
 group 'nl.elec332.util'
 archivesBaseName = "ImplementationManager"
-version '1.0-Alpha'
+version '1.0.1-Beta'
 
 sourceCompatibility = targetCompatibility = 1.11
+
+task apiJar (type: Jar) {
+    classifier "api"
+    from(sourceSets.main.allSource) {
+        include "**/implementationmanager/api/"
+    }
+}
+
+artifacts {
+    archives apiJar
+}
 
 ossrh {
     description = 'Implementation manager for Java 9+'
