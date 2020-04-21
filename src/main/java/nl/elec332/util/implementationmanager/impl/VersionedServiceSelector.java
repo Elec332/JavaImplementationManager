@@ -1,7 +1,7 @@
-package nl.elec332.implementationmanager.impl;
+package nl.elec332.util.implementationmanager.impl;
 
-import nl.elec332.implementationmanager.AbstractComparableServiceSelector;
-import nl.elec332.implementationmanager.api.IVersionedService;
+import nl.elec332.util.implementationmanager.AbstractComparableServiceSelector;
+import nl.elec332.util.implementationmanager.api.IVersionedService;
 
 import java.util.Comparator;
 

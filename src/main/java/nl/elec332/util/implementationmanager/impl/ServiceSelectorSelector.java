@@ -1,6 +1,6 @@
-package nl.elec332.implementationmanager.impl;
+package nl.elec332.util.implementationmanager.impl;
 
-import nl.elec332.implementationmanager.api.IServiceSelector;
+import nl.elec332.util.implementationmanager.api.IServiceSelector;
 
 import java.util.Collection;
 import java.util.Iterator;

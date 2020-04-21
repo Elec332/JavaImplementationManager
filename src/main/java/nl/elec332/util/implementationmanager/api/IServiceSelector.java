@@ -1,4 +1,4 @@
-package nl.elec332.implementationmanager.api;
+package nl.elec332.util.implementationmanager.api;
 
 import java.util.Collection;
 

@@ -1,4 +1,4 @@
-package nl.elec332.implementationmanager.api;
+package nl.elec332.util.implementationmanager.api;
 
 /**
  * Created by Elec332 on 19-4-2020

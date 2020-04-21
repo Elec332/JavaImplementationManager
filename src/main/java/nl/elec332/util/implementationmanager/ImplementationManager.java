@@ -1,7 +1,7 @@
-package nl.elec332.implementationmanager;
+package nl.elec332.util.implementationmanager;
 
-import nl.elec332.implementationmanager.api.IServiceSelector;
-import nl.elec332.implementationmanager.impl.ServiceSelectorSelector;
+import nl.elec332.util.implementationmanager.api.IServiceSelector;
+import nl.elec332.util.implementationmanager.impl.ServiceSelectorSelector;
 
 import java.util.*;
 import java.util.ServiceLoader.Provider;
